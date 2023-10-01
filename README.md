@@ -30,23 +30,23 @@ You can run this project within a virtual environment to manage its dependencies
 
 1. Create a virtual environment (replace `venv` with your preferred environment name):
 
-   bash
+   ```bash
    python -m venv venv
-   
+   ```
 
 2. Activate the virtual environment:
 
    - On Windows:
 
-     bash
+    ``` bash
      venv\Scripts\activate
-     
+     ```
 
    - On macOS and Linux:
 
-     bash
+     ```bash
      source venv/bin/activate
-     
+     ```
 
 Running the project within a virtual environment ensures that its dependencies do not interfere with your system-wide Python packages, making it easier to manage and maintain the project.
 
