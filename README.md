@@ -24,6 +24,31 @@ This is a simple Python project for a school management system that allows you t
    ```bash
    python school_management_system.py
    ```
+### Running in a Virtual Environment
+
+You can run this project within a virtual environment to manage its dependencies and isolate it from your system's global Python environment. Here are the steps to set up and run the project in a virtual environment:
+
+1. Create a virtual environment (replace `venv` with your preferred environment name):
+
+   bash
+   python -m venv venv
+   
+
+2. Activate the virtual environment:
+
+   - On Windows:
+
+     bash
+     venv\Scripts\activate
+     
+
+   - On macOS and Linux:
+
+     bash
+     source venv/bin/activate
+     
+
+Running the project within a virtual environment ensures that its dependencies do not interfere with your system-wide Python packages, making it easier to manage and maintain the project.
 
 3. Follow the on-screen prompts to add, view, or calculate total marks for students.
 
